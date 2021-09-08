@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(101, 101, 102);
+ 
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p,h1{
+  color: white;
+}
+.container {
+  background-color: rgb(49, 51, 49);
+  margin: 10px 100px 30px 100px;
+  padding: 20px;
+}
+
+button, a {
+  color: black;
+	display: block;
+	position: relative;
+	margin: 0.5em 0;
+	padding: .8em 2.2em;
+	cursor: pointer;
+
+	background: #FFFFFF;
+	border: none;
+	border-radius: .4em;
+}
+
+button:hover {
+  border: 3px solid cyan;
+}
+
+nav{
+  text-align: center;
+}
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul, li, a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
